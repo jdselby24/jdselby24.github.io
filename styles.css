@@ -1,0 +1,28 @@
+* {
+	font-family: Arial, sans-serif;
+}
+
+body {
+	margin: 0;
+}
+
+
+nav {
+	overflow: auto;
+	background-color: #7a7a7a;
+	color: #ffffff;
+}
+
+nav #logo {
+	float: left;
+}
+
+nav ul {
+	margin: 0;
+}
+
+nav ul li {
+	float: right;
+	margin-right: 25px;
+	list-style: none;
+}
