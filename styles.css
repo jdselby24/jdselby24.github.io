@@ -14,11 +14,12 @@ nav {
 	background-color: #ffffff;
 	color: #000000;
 	font-size: 25px;
+	height: 55px;
 }
 
 nav #logo {
 	float: left;
-	height: 55px;
+	
 }
 
 nav ul {
