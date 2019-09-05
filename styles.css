@@ -67,7 +67,7 @@ body {
 	color: #ffffff;
 	font-size: 50px;
 	font-weight: 700;
-	top: 650px;
+	top: 615px;
 	left: 48%; 
 }
 
@@ -81,6 +81,7 @@ body {
 
 #about-text {
 	text-align: center;
+	padding: 52px;
 }
 
 #about-text h1 {
@@ -108,6 +109,25 @@ Cow visiting the Statue of Liberty
 @media screen and (max-width: 600px) {
 
 	/* NAVBAR STYLES GO HERE */
+
+	#hero-text {
+		font-size: 34px;
+	}
+
+	.hero h6 {
+		font-size: 50%;
+	}
+
+	#hero-arrow {
+		font-size: 30px;
+		top: 660px;
+	}
+
+	#about-text p {
+		font-size: 20px;
+
+	}
+
 }
 
 @media screen and (max-width: 550px) {
