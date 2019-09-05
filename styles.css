@@ -22,6 +22,8 @@ body {
 	margin: 0 auto;
 }
 
+/* NAVBAR STYLES GO HERE */
+
 .hero {
 	margin: 0;
 	color: #ffffff;
@@ -36,7 +38,7 @@ body {
 
 #hero-text {
 	margin: 0 0 0 20px;
-	font-size: 50px;
+	font-size: 46px;
 	font-family: 'Lora', serif;
 	position: relative;
 	top: 550px;
@@ -58,7 +60,18 @@ body {
 	font-size: 40%;
 }
 
+#about-text {
+	text-align: center;
+}
 
+#about-text h1 {
+	font-size: 44px;
+}
+
+#about-text p {
+	font-size: 28px;
+	font-weight: 300;
+}
 /*               \_|_/
                   (oo)
            /-------\/
@@ -72,8 +85,11 @@ Cow visiting the Statue of Liberty
 
 @media screen and (max-width: 600px) {
 
+	/* NAVBAR STYLES GO HERE */
 }
 
 @media screen and (max-width: 550px) {
+
+	/* NAVBAR STYLES GO HERE */
 
 }
