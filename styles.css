@@ -17,6 +17,11 @@ body {
 	margin: 0;
 }
 
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
 /*NAVBAR STYLES*/
 
 nav {
@@ -67,6 +72,13 @@ a:hover {
 	border-radius: 5px;
 	padding: 6.5px;
 }
+
+.hero {
+	margin: 0;
+	color: #ffffff;
+	background-color: #000000;
+}
+
 
 /*               \_|_/
                   (oo)
