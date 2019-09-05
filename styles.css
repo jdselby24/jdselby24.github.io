@@ -18,7 +18,7 @@ body {
 }
 
 .container {
-	width: 80%;
+	width: 85%;
 	margin: 0 auto;
 }
 
@@ -72,6 +72,12 @@ nav ul li a:hover {
 	border-radius: 5px;
 	padding: 6.5px;
 }
+
+/*             )\               (__)
+              /  \              (oo)
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+           Cow swimming at Amity Island
+(Where Jaws was set, for those less educated)*/
 
 /* HERO STYLES */
 
@@ -152,6 +158,38 @@ nav ul li a:hover {
             ~~    ~~
 Cow visiting the Statue of Liberty
 */
+
+/* PORTFOLIO ITEMS STYLES */
+
+.portfolio {
+	background-color: #000000;
+	color: #ffffff;
+}
+
+.portfolio h2 {
+	margin: 0;
+	text-align: center;
+	font-size: 44px;
+}
+
+.portfolio-text {
+	padding-top-top: 20px;
+}
+
+#portfolio-item-box {
+	text-align: center;
+}
+
+.portfolio-item {
+	display: inline-block;
+	margin: 0 auto;
+}
+
+.portfolio-item div {
+	width: 375px;
+	height: 225px;
+	background-color: #fefefe;
+}
 
 /* RESPONSIVE CSS */
 
