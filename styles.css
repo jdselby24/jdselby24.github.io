@@ -48,10 +48,6 @@ nav #logo {
   margin: 6px 0;
 }
 
-nav ul {
-	margin: 20px 0 20px 0;
-}
-
 nav ul li {
 	float: right;
 	margin-right: 60px;
@@ -72,24 +68,25 @@ a:hover {
 	padding: 6.5px;
 }
 
-@media screen and (max-width: 600px) {
-	nav {
-		font-size: 20px;
-	}
-
+@media screen and (max-width: 700px) {
 	nav #logo {
-		font-size: 35px;
 		margin-left: 25px;
 	}
 
 	nav ul li {
 		margin-right: 45px;
 	}
+
+	a:hover {
+		border-width: 0px;
+	}
 }
 
-@media screen and (max-width: 501px) {
+@media screen and (max-width: 667px) {
 	nav #logo {
+		font-size: 35px;
 		padding-bottom: 0px;
+		margin-top: 14px;
 	}
 
 	#hamburger {
