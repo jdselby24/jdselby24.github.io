@@ -67,7 +67,7 @@ nav ul li a {
 	font-weight: 600;
 }
 
-a:hover {
+nav ul li a:hover {
 	border: .5px solid #000000;
 	border-radius: 5px;
 	padding: 6.5px;
