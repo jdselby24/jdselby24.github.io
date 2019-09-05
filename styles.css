@@ -33,6 +33,19 @@ nav #logo {
 	padding: 8px;
 	font-weight: 600;
 	margin-left: 30px;
+	margin-top: 10px;
+}
+
+#hamburger {
+	float: right;
+	display: none;
+}
+
+.hamburgerRow {
+  width: 30px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
 }
 
 nav ul {
@@ -49,6 +62,7 @@ nav ul li a {
 	text-decoration: none;
 	color: #000000;
 	padding: 7px;
+	padding-bottom: 0px;
 	font-weight: 600;
 }
 
@@ -56,4 +70,33 @@ a:hover {
 	border: .5px solid #000000;
 	border-radius: 5px;
 	padding: 6.5px;
+}
+
+@media screen and (max-width: 600px) {
+	nav {
+		font-size: 20px;
+	}
+
+	nav #logo {
+		font-size: 35px;
+		margin-left: 25px;
+	}
+
+	nav ul li {
+		margin-right: 45px;
+	}
+}
+
+@media screen and (max-width: 501px) {
+	nav #logo {
+		padding-bottom: 0px;
+	}
+
+	#hamburger {
+		display: inline-block;
+	}
+
+	nav ul li a {
+		display: none;
+	}
 }
