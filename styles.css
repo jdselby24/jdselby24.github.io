@@ -19,7 +19,10 @@ nav {
 
 nav #logo {
 	float: left;
-	
+	font-size: 40px;
+	padding: 7px;
+	font-weight: 600;
+	margin-left: 20px;
 }
 
 nav ul {
