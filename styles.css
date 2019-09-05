@@ -60,18 +60,39 @@ body {
 	font-size: 40%;
 }
 
+#hero-arrow {
+	position: relative;
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 50px;
+	font-weight: 700;
+	top: 650px;
+	left: 48%; 
+}
+
+#hero-arrow:hover {
+	color: #5f5f5f;
+}
+
+.about {
+	background-color: #afafaf;
+}
+
 #about-text {
 	text-align: center;
 }
 
 #about-text h1 {
 	font-size: 44px;
+	margin: 0;
+	padding-top: 20px;
 }
 
 #about-text p {
 	font-size: 28px;
-	font-weight: 300;
+	font-weight: 200;
 }
+
 /*               \_|_/
                   (oo)
            /-------\/
