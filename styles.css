@@ -77,6 +77,31 @@ a:hover {
 	margin: 0;
 	color: #ffffff;
 	background-color: #000000;
+	height: 860px;
+}
+
+#hero-text {
+	margin: 0 0 0 20px;
+	font-size: 50px;
+	font-family: 'Lora', serif;
+	position: relative;
+	top: 550px;
+	left: 50px; 
+}
+
+.hero h1 {
+	margin: 0;
+	font-family: 'Lora', serif;
+}
+
+.hero h3 {
+	margin: 0;
+	font-size: 95%;
+}
+
+.hero h6 {
+	margin: 0;
+	font-size: 40%;
 }
 
 
