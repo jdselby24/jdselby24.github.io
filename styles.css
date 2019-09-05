@@ -175,6 +175,10 @@ Cow visiting the Statue of Liberty
 	font-size: 44px;
 }
 
+.portfolio h3 {
+	font-size: 25px;
+}
+
 .portfolio-text {
 	padding-top-top: 20px;
 }
@@ -193,6 +197,14 @@ Cow visiting the Statue of Liberty
 	height: 225px;
 	background-color: #fefefe;
 }
+
+/*     \ (__)
+       \\(oo)
+  /-----\\\/
+ / |    (##)
+*  ||----||"
+   ~~    ~~
+This cow plays bagpipes*/
 
 /* RESPONSIVE CSS */
 
@@ -213,8 +225,13 @@ Cow visiting the Statue of Liberty
 
 	/* HERO */
 
+	.hero {
+		height: 550px;
+	}
+
 	#hero-text {
 		font-size: 34px;
+		top: 300px;
 	}
 
 	.hero h6 {
@@ -223,7 +240,7 @@ Cow visiting the Statue of Liberty
 
 	#hero-arrow {
 		font-size: 30px;
-		top: 660px;
+		top: 350px;
 	}
 
 	#about-text p {
