@@ -42,10 +42,10 @@ nav #logo {
 }
 
 .hamburgerRow {
-  width: 30px;
-  height: 4px;
-  background-color: black;
-  margin: 6px 0;
+ 	width: 30px;
+ 	height: 4px;
+ 	background-color: black;
+ 	margin: 6px 0;
 }
 
 nav ul li {
