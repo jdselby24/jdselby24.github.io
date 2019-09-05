@@ -24,7 +24,7 @@ nav {
 	background-color: #ffffff;
 	color: #000000;
 	font-size: 25px;
-	height: 62px;
+	height: 70px;
 	}
 
 nav #logo {
@@ -33,7 +33,7 @@ nav #logo {
 	padding: 8px;
 	font-weight: 600;
 	margin-left: 30px;
-	margin-top: 10px;
+	margin-top: 8px;
 }
 
 #hamburger {
@@ -43,7 +43,7 @@ nav #logo {
 
 .hamburgerRow {
   width: 30px;
-  height: 5px;
+  height: 4px;
   background-color: black;
   margin: 6px 0;
 }
