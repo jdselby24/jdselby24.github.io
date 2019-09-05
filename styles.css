@@ -8,21 +8,22 @@ body {
 	margin: 0;
 }
 
+/*NAVBAR STYLES*/
 
 nav {
 	overflow: auto;
 	background-color: #ffffff;
 	color: #000000;
 	font-size: 25px;
-	height: 55px;
-}
+	height: 62px;
+	}
 
 nav #logo {
 	float: left;
 	font-size: 40px;
-	padding: 7px;
+	padding: 8px;
 	font-weight: 600;
-	margin-left: 20px;
+	margin-left: 30px;
 }
 
 nav ul {
@@ -43,7 +44,7 @@ nav ul li a {
 }
 
 a:hover {
-	border: 2px solid #000000;
+	border: .5px solid #000000;
 	border-radius: 5px;
-	padding: 5px;
+	padding: 6.5px;
 }
