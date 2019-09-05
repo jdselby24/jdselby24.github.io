@@ -166,8 +166,11 @@ Cow visiting the Statue of Liberty
 	color: #ffffff;
 }
 
+.portfolio .container {
+	padding-top: 30px;
+}
 .portfolio h2 {
-	margin: 0;
+	margin: 0 0 20px 0;
 	text-align: center;
 	font-size: 44px;
 }
