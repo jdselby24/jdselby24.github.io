@@ -315,8 +315,13 @@ Stretch Cow*/
 	display: inline-block;
 	text-align: center;
 	width: auto;
-	margin: auto 11% auto 11%;
+	margin: auto 10% auto 10%;
 	}
+
+
+.contact .container {
+	text-align: center;
+}
 
 /*     \ (__)
        \\(oo)
@@ -331,6 +336,13 @@ This cow plays bagpipes*/
 @media screen and (max-width: 1400px) {
 	.portfolio .container {
 		width: 95%;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.contact article {
+		/*display: block;*/
+		margin: auto 5% auto 5%;
 	}
 }
 
@@ -388,6 +400,10 @@ This cow plays bagpipes*/
 		width: 550px;
 		height: 300px;
 		border-radius: 0;
+	}
+
+	.contact article {
+		display: block;
 	}
 
 }
