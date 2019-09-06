@@ -7,6 +7,8 @@
 Cow at Disneyland
 */
 
+
+/* MASTER STYLES */
 * {
 	font-family: din-condensed, sans-serif;
 	font-weight: 400;
@@ -199,7 +201,8 @@ Cow visiting the Statue of Liberty
 .portfolio-item {
 	display: inline-block;
 	margin: 20px auto 5px auto;
-	margin-right: 10px;
+	margin-right: 5px;
+	margin-left: 5px;
 }
 
 .portfolio-item div {
