@@ -210,6 +210,10 @@ Cow visiting the Statue of Liberty
 	height: 225px;
 	background-color: #fefefe;
 	border-radius: 10px;
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	position: relative;
 }
 
 .portfolio-item a {
@@ -217,54 +221,13 @@ Cow visiting the Statue of Liberty
 }
 /*PORTFOLIO ITEM IMAGES*/
 
+.coming-soon {
+	background-image: url(images/coming-soon.png);
+}
+
 #pf-item-1-img {
 	background-image: url(images/item1.png);
-	background-position: center;
-  	background-repeat: no-repeat;
-  	background-size: cover;
-  	position: relative;
 }
-
-#pf-item-2-img {
-	background-image: url(images/coming-soon.png);
-	background-position: center;
-  	background-repeat: no-repeat;
-  	background-size: cover;
-  	position: relative;
-}
-
-#pf-item-3-img {
-	background-image: url(images/coming-soon.png);
-	background-position: center;
-  	background-repeat: no-repeat;
-  	background-size: cover;
-  	position: relative;
-}
-
-#pf-item-4-img {
-	background-image: url(images/coming-soon.png);
-	background-position: center;
-  	background-repeat: no-repeat;
-  	background-size: cover;
-  	position: relative;
-}
-
-#pf-item-5-img {
-	background-image: url(images/coming-soon.png);
-	background-position: center;
-  	background-repeat: no-repeat;
-  	background-size: cover;
-  	position: relative;
-}
-
-#pf-item-6-img {
-	background-image: url(images/coming-soon.png);
-	background-position: center;
-  	background-repeat: no-repeat;
-  	background-size: cover;
-  	position: relative;
-}
-
 
 /*     \ (__)
        \\(oo)
@@ -355,6 +318,11 @@ This cow plays bagpipes*/
 
 	nav ul li a {
 		display: none;
+	}
+
+	.portfolio-item div {
+		width: 320px;
+		height: 170px;
 	}
 
 }
