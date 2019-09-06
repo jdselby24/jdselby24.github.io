@@ -7,6 +7,8 @@
 Cow at Disneyland
 */
 
+
+/* MASTER STYLES */
 * {
 	font-family: din-condensed, sans-serif;
 	font-weight: 400;
@@ -18,8 +20,17 @@ body {
 }
 
 .container {
-	width: 80%;
+	width: 85%;
 	margin: 0 auto;
+}
+
+a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+a:hover {
+	color: #929292;
 }
 
 /*NAVBAR STYLES*/
@@ -60,7 +71,6 @@ nav ul li {
 }
 
 nav ul li a {
-	text-decoration: none;
 	color: #000000;
 	padding: 7px;
 	padding-bottom: 0px;
@@ -72,6 +82,12 @@ nav ul li a:hover {
 	border-radius: 5px;
 	padding: 6.5px;
 }
+
+/*             )\               (__)
+              /  \              (oo)
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+           Cow swimming at Amity Island
+(Where Jaws was set, for those less educated)*/
 
 /* HERO STYLES */
 
@@ -153,9 +169,87 @@ nav ul li a:hover {
 Cow visiting the Statue of Liberty
 */
 
+/* PORTFOLIO ITEMS STYLES */
+
+.portfolio {
+	background-color: #000000;
+	color: #ffffff;
+}
+
+.portfolio .container {
+	padding-top: 30px;
+}
+.portfolio h2 {
+	margin: 0 0 20px 0;
+	text-align: center;
+	font-size: 54px;
+}
+
+.portfolio h3 {
+	font-size: 25px;
+	margin-bottom: 5px;
+}
+
+.portfolio-text {
+	padding-top-top: 20px;
+}
+
+#portfolio-item-box {
+	text-align: center;
+}
+
+.portfolio-item {
+	display: inline-block;
+	margin: 20px auto 5px auto;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.portfolio-item div {
+	width: 365px;
+	height: 225px;
+	background-color: #fefefe;
+	border-radius: 10px;
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	position: relative;
+}
+
+.portfolio-item a {
+	font-size: 20px;
+}
+/*PORTFOLIO ITEM IMAGES*/
+
+.coming-soon {
+	background-image: url(images/coming-soon.png);
+}
+
+#pf-item-1-img {
+	background-image: url(images/item1.png);
+}
+
+/*     \ (__)
+       \\(oo)
+  /-----\\\/
+ / |    (##)
+*  ||----||"
+   ~~    ~~
+This cow plays bagpipes*/
+
 /* RESPONSIVE CSS */
 
+@media screen and (max-width: 1400px) {
+	.portfolio .container {
+		width: 95%;
+	}
+}
+
 @media screen and (max-width: 600px) {
+
+	.container {
+		width: 95%;
+	}
 
 	/* NAVBAR */
 	nav #logo {
@@ -172,8 +266,13 @@ Cow visiting the Statue of Liberty
 
 	/* HERO */
 
+	.hero {
+		height: 550px;
+	}
+
 	#hero-text {
 		font-size: 34px;
+		top: 300px;
 	}
 
 	.hero h6 {
@@ -182,12 +281,24 @@ Cow visiting the Statue of Liberty
 
 	#hero-arrow {
 		font-size: 30px;
-		top: 660px;
+		top: 350px;
 	}
 
 	#about-text p {
 		font-size: 20px;
 
+	}
+
+	/* PORTFOLIO */
+
+	.portfolio .container {
+		width: 100%;
+	}
+
+	.portfolio-item div {
+		width: 550px;
+		height: 300px;
+		border-radius: 0;
 	}
 
 }
@@ -207,6 +318,11 @@ Cow visiting the Statue of Liberty
 
 	nav ul li a {
 		display: none;
+	}
+
+	.portfolio-item div {
+		width: 320px;
+		height: 170px;
 	}
 
 }
