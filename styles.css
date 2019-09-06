@@ -22,6 +22,15 @@ body {
 	margin: 0 auto;
 }
 
+a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+a:hover {
+	color: #929292;
+}
+
 /*NAVBAR STYLES*/
 
 nav {
@@ -60,7 +69,6 @@ nav ul li {
 }
 
 nav ul li a {
-	text-decoration: none;
 	color: #000000;
 	padding: 7px;
 	padding-bottom: 0px;
@@ -172,11 +180,12 @@ Cow visiting the Statue of Liberty
 .portfolio h2 {
 	margin: 0 0 20px 0;
 	text-align: center;
-	font-size: 44px;
+	font-size: 54px;
 }
 
 .portfolio h3 {
 	font-size: 25px;
+	margin-bottom: 5px;
 }
 
 .portfolio-text {
@@ -189,14 +198,70 @@ Cow visiting the Statue of Liberty
 
 .portfolio-item {
 	display: inline-block;
-	margin: 0 auto;
+	margin: 20px auto 5px auto;
+	margin-right: 10px;
 }
 
 .portfolio-item div {
-	width: 375px;
+	width: 365px;
 	height: 225px;
 	background-color: #fefefe;
+	border-radius: 10px;
 }
+
+.portfolio-item a {
+	font-size: 20px;
+}
+/*PORTFOLIO ITEM IMAGES*/
+
+#pf-item-1-img {
+	background-image: url(images/item1.png);
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	position: relative;
+}
+
+#pf-item-2-img {
+	background-image: url(images/coming-soon.png);
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	position: relative;
+}
+
+#pf-item-3-img {
+	background-image: url(images/coming-soon.png);
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	position: relative;
+}
+
+#pf-item-4-img {
+	background-image: url(images/coming-soon.png);
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	position: relative;
+}
+
+#pf-item-5-img {
+	background-image: url(images/coming-soon.png);
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	position: relative;
+}
+
+#pf-item-6-img {
+	background-image: url(images/coming-soon.png);
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	position: relative;
+}
+
 
 /*     \ (__)
        \\(oo)
@@ -208,7 +273,17 @@ This cow plays bagpipes*/
 
 /* RESPONSIVE CSS */
 
+@media screen and (max-width: 1400px) {
+	.portfolio .container {
+		width: 95%;
+	}
+}
+
 @media screen and (max-width: 600px) {
+
+	.container {
+		width: 95%;
+	}
 
 	/* NAVBAR */
 	nav #logo {
@@ -246,6 +321,18 @@ This cow plays bagpipes*/
 	#about-text p {
 		font-size: 20px;
 
+	}
+
+	/* PORTFOLIO */
+
+	.portfolio .container {
+		width: 100%;
+	}
+
+	.portfolio-item div {
+		width: 550px;
+		height: 300px;
+		border-radius: 0;
 	}
 
 }
