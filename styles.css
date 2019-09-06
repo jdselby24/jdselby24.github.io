@@ -215,6 +215,7 @@ Cow visiting the Statue of Liberty
 .portfolio-item a {
 	font-size: 20px;
 }
+
 /*PORTFOLIO ITEM IMAGES*/
 
 #pf-item-1-img {
@@ -265,6 +266,32 @@ Cow visiting the Statue of Liberty
   	position: relative;
 }
 
+/* CONTACT STYLES */
+
+.contact h2 {
+	text-align: center;
+}
+
+.contact a {
+	color: #000000;
+	margin: 10px 30px;
+}
+
+.contact article {
+	display: inline-block;
+}
+
+.contact-button {
+	display: inline-block;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.contact-img {
+	background-color: #989898;
+	width: 100px;
+	height: 100px;
+}
 
 /*     \ (__)
        \\(oo)
