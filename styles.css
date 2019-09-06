@@ -33,6 +33,15 @@ a:hover {
 	color: #929292;
 }
 
+/*          (__)
+            (@@)
+     /-------\/
+    / |     ||
+   *  ||----||
+      ^^    ^^
+   Cow who ate
+psychadelic mushrooms*/
+
 /*NAVBAR STYLES*/
 
 nav {
@@ -142,6 +151,14 @@ nav ul li a:hover {
 	color: #5f5f5f;
 }
 
+/*          (__)
+            ($$)
+     /-------\/
+    / |=====||
+   *  ||----||
+      ~~    ~~
+This cow is a Yuppie*/
+
 /* ABOUT STYLES */
 
 #about-text {
@@ -216,6 +233,16 @@ Cow visiting the Statue of Liberty
 	font-size: 20px;
 }
 
+/*     \^^^^^^^^\   (__)
+        \^^^^^^^^\\ (oo)
+     *-----\_______\/\/
+   ^_______/   ---  \______^
+  ^--------\   \S/  /\_____^
+            \______/
+
+It's a bird...
+ It's a plane...*/
+
 /*PORTFOLIO ITEM IMAGES*/
 
 #pf-item-1-img {
@@ -266,30 +293,34 @@ Cow visiting the Statue of Liberty
   	position: relative;
 }
 
+/*                   (__)
+                     (oo)
+  /-------------------\/
+ / |                 ||
+*  ||----------------||
+   ^^                ^^
+Stretch Cow*/
+
 /* CONTACT STYLES */
+
+#contact-buttons-box {
+	width: 100%
+	margin: 0 auto;
+}
 
 .contact h2 {
 	text-align: center;
 }
 
-.contact a {
-	color: #000000;
-	margin: 10px 30px;
-}
-
 .contact article {
 	display: inline-block;
-}
-
-.contact-button {
-	display: inline-block;
 	text-align: center;
-	margin: 0 auto;
+	width: 320px;
+	margin: 1%;
 }
 
 .contact-img {
 	background-color: #989898;
-	width: 100px;
 	height: 100px;
 }
 
@@ -385,3 +416,14 @@ This cow plays bagpipes*/
 	}
 
 }
+
+
+
+
+/*    vv    vv
+      ||----||  *
+      ||     | /
+     /\-------/
+    (oo)
+    (~~)
+Australian Cow*/
