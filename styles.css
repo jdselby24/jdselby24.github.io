@@ -33,6 +33,20 @@ a:hover {
 	color: #929292;
 }
 
+i {
+	color: #000000;
+	font-size: 40px;
+}
+
+/*          (__)
+            (@@)
+     /-------\/
+    / |     ||
+   *  ||----||
+      ^^    ^^
+   Cow who ate
+psychadelic mushrooms*/
+
 /*NAVBAR STYLES*/
 
 nav {
@@ -142,6 +156,14 @@ nav ul li a:hover {
 	color: #5f5f5f;
 }
 
+/*          (__)
+            ($$)
+     /-------\/
+    / |=====||
+   *  ||----||
+      ~~    ~~
+This cow is a Yuppie*/
+
 /* ABOUT STYLES */
 
 #about-text {
@@ -210,15 +232,22 @@ Cow visiting the Statue of Liberty
 	height: 225px;
 	background-color: #fefefe;
 	border-radius: 10px;
-	background-position: center;
-  	background-repeat: no-repeat;
-  	background-size: cover;
-  	position: relative;
 }
 
 .portfolio-item a {
 	font-size: 20px;
 }
+
+/*     \^^^^^^^^\   (__)
+        \^^^^^^^^\\ (oo)
+     *-----\_______\/\/
+   ^_______/   ---  \______^
+  ^--------\   \S/  /\_____^
+            \______/
+
+It's a bird...
+ It's a plane...*/
+
 /*PORTFOLIO ITEM IMAGES*/
 
 .coming-soon {
@@ -227,6 +256,32 @@ Cow visiting the Statue of Liberty
 
 #pf-item-1-img {
 	background-image: url(images/item1.png);
+}
+
+
+/*                   (__)
+                     (oo)
+  /-------------------\/
+ / |                 ||
+*  ||----------------||
+   ^^                ^^
+Stretch Cow*/
+
+/* CONTACT STYLES */
+.contact h2 {
+	text-align: center;
+}
+
+.contact article {
+	display: inline-block;
+	text-align: center;
+	width: auto;
+	margin: auto 10% auto 10%;
+	}
+
+
+.contact .container {
+	text-align: center;
 }
 
 /*     \ (__)
@@ -242,6 +297,13 @@ This cow plays bagpipes*/
 @media screen and (max-width: 1400px) {
 	.portfolio .container {
 		width: 95%;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.contact article {
+		/*display: block;*/
+		margin: auto 5% auto 5%;
 	}
 }
 
@@ -301,6 +363,10 @@ This cow plays bagpipes*/
 		border-radius: 0;
 	}
 
+	.contact article {
+		display: block;
+	}
+
 }
 
 @media screen and (max-width: 550px) {
@@ -326,3 +392,11 @@ This cow plays bagpipes*/
 	}
 
 }
+
+/*    vv    vv
+      ||----||  *
+      ||     | /
+     /\-------/
+    (oo)
+    (~~)
+Australian Cow*/
