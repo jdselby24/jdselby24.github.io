@@ -250,6 +250,13 @@ It's a bird...
 
 /*PORTFOLIO ITEM IMAGES*/
 
+.portfolio-item div {
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	position: relative;
+}
+
 .coming-soon {
 	background-image: url(images/coming-soon.png);
 }
