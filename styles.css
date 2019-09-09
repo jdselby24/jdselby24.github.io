@@ -1,18 +1,7 @@
-/*        O__O
-          (oo)
-   /-------\/
-  / |     ||
- *  ||----||
-    ~~    ~~
-Cow at Disneyland
-*/
-
-
 /* MASTER STYLES */
 * {
-	font-family: din-condensed, sans-serif;
+	font-family: "din-condensed", sans-serif;
 	font-weight: 400;
-	font-style: normal;
 }
 
 body {
@@ -38,23 +27,11 @@ i {
 	font-size: 40px;
 }
 
-/*          (__)
-            (@@)
-     /-------\/
-    / |     ||
-   *  ||----||
-      ^^    ^^
-   Cow who ate
-psychadelic mushrooms*/
-
 /*NAVBAR STYLES*/
 
 nav {
 	overflow: auto;
-	background-color: #ffffff;
-	color: #000000;
 	font-size: 25px;
-	height: 70px;
 	}
 
 nav .logo {
@@ -62,8 +39,7 @@ nav .logo {
 	font-size: 40px;
 	padding: 8px;
 	font-weight: 600;
-	margin-left: 30px;
-	margin-top: 8px;
+	margin: 8px 0 0 30px;
 }
 
 .hamburger {
@@ -97,27 +73,19 @@ nav ul li a:hover {
 	padding: 6.5px;
 }
 
-/*             )\               (__)
-              /  \              (oo)
-        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-           Cow swimming at Amity Island
-(Where Jaws was set, for those less educated)*/
-
 /* HERO STYLES */
 
-.hero {
-	margin: 0;
+header {
 	color: #ffffff;
 	background-color: #000000;
-	background-image: url(images/hero.jpg);
+	background-image: url("images/hero.jpg");
 	background-position: center;
   	background-repeat: no-repeat;
   	background-size: cover;
-  	position: relative;
 	height: 870px;
 }
 
-#hero-text {
+.hero-text {
 	margin: 0 0 0 20px;
 	font-size: 46px;
 	font-family: 'Lora', serif;
@@ -126,70 +94,37 @@ nav ul li a:hover {
 	left: 50px; 
 }
 
-.hero h1 {
+header h1 {
 	margin: 0;
 	font-family: 'Lora', serif;
 }
 
-.hero h3 {
+header h3 {
 	margin: 0;
 	font-size: 95%;
 }
 
-.hero h6 {
+header h6 {
 	margin: 0;
 	font-size: 40%;
 }
 
-#hero-arrow {
-	display: inline-block;
-	position: relative;
-	text-decoration: none;
-	color: #ffffff;
-	font-size: 50px;
-	font-weight: 700;
-	top: 615px;
-	left: 48%; 
-}
-
-#hero-arrow:hover {
-	color: #5f5f5f;
-}
-
-/*          (__)
-            ($$)
-     /-------\/
-    / |=====||
-   *  ||----||
-      ~~    ~~
-This cow is a Yuppie*/
-
 /* ABOUT STYLES */
 
-#about-text {
+.about {
 	text-align: center;
-	padding: 52px;
+	padding: 72px 52px 52px 52px;
 }
 
-#about-text h1 {
-	font-size: 44px;
+.about h1 {
 	margin: 0;
-	padding-top: 20px;
+	font-size: 44px;
 }
 
-#about-text p {
+.about p {
 	font-size: 28px;
 	font-weight: 200;
 }
-
-/*               \_|_/
-                  (oo)
-           /-------\/
-          / |     ||
-         *  ||----||
-            ~~    ~~
-Cow visiting the Statue of Liberty
-*/
 
 /* PORTFOLIO ITEMS STYLES */
 
@@ -213,10 +148,10 @@ Cow visiting the Statue of Liberty
 }
 
 .portfolio-text {
-	padding-top-top: 20px;
+	padding-top: 20px;
 }
 
-#portfolio-item-box {
+.portfolio-item-box {
 	text-align: center;
 }
 
@@ -238,16 +173,6 @@ Cow visiting the Statue of Liberty
 	font-size: 20px;
 }
 
-/*     \^^^^^^^^\   (__)
-        \^^^^^^^^\\ (oo)
-     *-----\_______\/\/
-   ^_______/   ---  \______^
-  ^--------\   \S/  /\_____^
-            \______/
-
-It's a bird...
- It's a plane...*/
-
 /*PORTFOLIO ITEM IMAGES*/
 
 .portfolio-item div {
@@ -258,23 +183,15 @@ It's a bird...
 }
 
 .coming-soon {
-	background-image: url(images/coming-soon.png);
+	background-image: url("images/coming-soon.png");
 }
 
 #pf-item-1-img {
-	background-image: url(images/item1.png);
+	background-image: url("images/item1.png");
 }
 
-
-/*                   (__)
-                     (oo)
-  /-------------------\/
- / |                 ||
-*  ||----------------||
-   ^^                ^^
-Stretch Cow*/
-
 /* CONTACT STYLES */
+
 .contact h2 {
 	text-align: center;
 }
@@ -282,7 +199,6 @@ Stretch Cow*/
 .contact article {
 	display: inline-block;
 	text-align: center;
-	width: auto;
 	margin: auto 10% auto 10%;
 	}
 
@@ -290,14 +206,6 @@ Stretch Cow*/
 .contact .container {
 	text-align: center;
 }
-
-/*     \ (__)
-       \\(oo)
-  /-----\\\/
- / |    (##)
-*  ||----||"
-   ~~    ~~
-This cow plays bagpipes*/
 
 /* RESPONSIVE CSS */
 
@@ -309,7 +217,6 @@ This cow plays bagpipes*/
 
 @media screen and (max-width: 1200px) {
 	.contact article {
-		/*display: block;*/
 		margin: auto 5% auto 5%;
 	}
 }
@@ -335,25 +242,25 @@ This cow plays bagpipes*/
 
 	/* HERO */
 
-	.hero {
+	header {
 		height: 550px;
 	}
 
-	#hero-text {
+	.hero-text {
 		font-size: 34px;
 		top: 300px;
 	}
 
-	.hero h6 {
+	header h6 {
 		font-size: 50%;
 	}
 
-	#hero-arrow {
+	.hero-arrow {
 		font-size: 30px;
 		top: 350px;
 	}
 
-	#about-text p {
+	.about-text p {
 		font-size: 20px;
 
 	}
@@ -399,11 +306,3 @@ This cow plays bagpipes*/
 	}
 
 }
-
-/*    vv    vv
-      ||----||  *
-      ||     | /
-     /\-------/
-    (oo)
-    (~~)
-Australian Cow*/
