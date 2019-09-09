@@ -57,7 +57,7 @@ nav {
 	height: 70px;
 	}
 
-nav #logo {
+nav .logo {
 	float: left;
 	font-size: 40px;
 	padding: 8px;
@@ -66,7 +66,7 @@ nav #logo {
 	margin-top: 8px;
 }
 
-#hamburger {
+.hamburger {
 	float: right;
 	display: none;
 }
@@ -385,7 +385,7 @@ This cow plays bagpipes*/
 		margin-top: 14px;
 	}
 
-	#hamburger {
+	.hamburger {
 		display: inline-block;
 	}
 
