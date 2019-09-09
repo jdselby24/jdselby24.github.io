@@ -227,6 +227,10 @@ header h6 {
 		width: 95%;
 	}
 
+	.hero-text {
+		left: 5px;
+	}
+
 	/* NAVBAR */
 	nav #logo {
 		margin-left: 25px;
