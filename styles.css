@@ -1,0 +1,312 @@
+/* MASTER STYLES */
+* {
+	box-sizing: border-box;
+	font-family: "din-condensed", sans-serif;
+	font-weight: 400;
+}
+
+body {
+	margin: 0;
+}
+
+.container {
+	width: 85%;
+	margin: 0 auto;
+}
+
+a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+a:hover {
+	color: #929292;
+}
+
+i {
+	color: #000000;
+	font-size: 40px;
+}
+
+/*NAVBAR STYLES*/
+
+nav {
+	overflow: auto;
+	font-size: 25px;
+	}
+
+nav .logo {
+	float: left;
+	font-size: 40px;
+	padding: 8px;
+	font-weight: 600;
+	margin: 8px 0 0 30px;
+}
+
+.hamburger {
+	float: right;
+	display: none;
+}
+
+.hamburgerRow {
+ 	width: 30px;
+ 	height: 4px;
+ 	background-color: black;
+ 	margin: 6px 0;
+}
+
+nav ul li {
+	float: right;
+	margin-right: 60px;
+	list-style: none;
+}
+
+nav ul li a {
+	color: #000000;
+	padding: 7px;
+	padding-bottom: 0px;
+	font-weight: 600;
+}
+
+nav ul li a:hover {
+	border: .5px solid #000000;
+	border-radius: 5px;
+	padding: 6.5px;
+}
+
+/* HERO STYLES */
+
+header {
+	color: #ffffff;
+	background-color: #000000;
+	background-image: url("images/hero.jpg");
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	height: 870px;
+}
+
+.hero-text {
+	margin: 0 0 0 20px;
+	font-size: 46px;
+	position: relative;
+	top: 550px;
+	left: 50px; 
+}
+
+header h1 {
+	margin: 0;
+	font-family: 'Lora', serif;
+}
+
+header h3 {
+	margin: 0;
+	font-size: 95%;
+}
+
+header h6 {
+	margin: 0;
+	font-size: 40%;
+}
+
+/* ABOUT STYLES */
+
+.about {
+	text-align: center;
+	padding: 72px 52px 52px 52px;
+}
+
+.about h1 {
+	margin: 0;
+	font-size: 44px;
+}
+
+.about p {
+	font-size: 28px;
+	font-weight: 200;
+}
+
+/* PORTFOLIO ITEMS STYLES */
+
+.portfolio {
+	background-color: #000000;
+	color: #ffffff;
+}
+
+.portfolio .container {
+	padding-top: 30px;
+}
+.portfolio h2 {
+	margin: 0 0 20px 0;
+	text-align: center;
+	font-size: 54px;
+}
+
+.portfolio h3 {
+	font-size: 25px;
+	margin-bottom: 5px;
+}
+
+.portfolio-text {
+	padding-top: 20px;
+}
+
+.portfolio-item-box {
+	text-align: center;
+}
+
+.portfolio-item {
+	display: inline-block;
+	margin: 20px auto 5px auto;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.portfolio-item div {
+	width: 365px;
+	height: 225px;
+	background-color: #fefefe;
+	border-radius: 10px;
+}
+
+.portfolio-item a {
+	font-size: 20px;
+}
+
+/*PORTFOLIO ITEM IMAGES*/
+
+.portfolio-item div {
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	position: relative;
+}
+
+.coming-soon {
+	background-image: url("images/coming-soon.png");
+}
+
+#pf-item-1-img {
+	background-image: url("images/item1.png");
+}
+
+/* CONTACT STYLES */
+
+.contact h2 {
+	text-align: center;
+}
+
+.contact article {
+	display: inline-block;
+	text-align: center;
+	margin: auto 10% auto 10%;
+	}
+
+
+.contact .container {
+	text-align: center;
+}
+
+/* RESPONSIVE CSS */
+
+@media screen and (max-width: 1400px) {
+	.portfolio .container {
+		width: 95%;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.contact article {
+		margin: auto 5% auto 5%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+
+	.container {
+		width: 95%;
+	}
+
+	.hero-text {
+		left: 5px;
+	}
+
+	/* NAVBAR */
+	nav #logo {
+		margin-left: 25px;
+	}
+
+	nav ul li {
+		margin-right: 45px;
+	}
+
+	a:hover {
+		border-width: 0px;
+	}
+
+	/* HERO */
+
+	header {
+		height: 550px;
+	}
+
+	.hero-text {
+		font-size: 34px;
+		top: 300px;
+	}
+
+	header h6 {
+		font-size: 50%;
+	}
+
+	.hero-arrow {
+		font-size: 30px;
+		top: 350px;
+	}
+
+	.about-text p {
+		font-size: 20px;
+
+	}
+
+	/* PORTFOLIO */
+
+	.portfolio .container {
+		width: 100%;
+	}
+
+	.portfolio-item div {
+		width: 550px;
+		height: 300px;
+		border-radius: 0;
+	}
+
+	.contact article {
+		display: block;
+	}
+
+}
+
+@media screen and (max-width: 550px) {
+
+	/* NAVBAR */
+	nav #logo {
+		font-size: 35px;
+		padding-bottom: 0px;
+		margin-top: 14px;
+	}
+
+	.hamburger {
+		display: inline-block;
+	}
+
+	nav ul li a {
+		display: none;
+	}
+
+	.portfolio-item div {
+		width: 320px;
+		height: 170px;
+	}
+
+}
