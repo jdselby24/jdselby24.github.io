@@ -1,5 +1,6 @@
 /* MASTER STYLES */
 * {
+	box-sizing: border-box;
 	font-family: "din-condensed", sans-serif;
 	font-weight: 400;
 }
@@ -88,7 +89,6 @@ header {
 .hero-text {
 	margin: 0 0 0 20px;
 	font-size: 46px;
-	font-family: 'Lora', serif;
 	position: relative;
 	top: 550px;
 	left: 50px; 
