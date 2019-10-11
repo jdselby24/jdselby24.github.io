@@ -190,6 +190,14 @@ header h6 {
 	background-image: url("images/item1.png");
 }
 
+#pf-item-2-img {
+	background-image: url("images/item2.png");
+}
+
+#pf-item-3-img {
+	background-image: url("images/item3.png");
+}
+
 /* CONTACT STYLES */
 
 .contact h2 {
