@@ -186,16 +186,35 @@ header h6 {
 	background-image: url("images/coming-soon.png");
 }
 
+/* PORTFOLIO */
 #pf-item-1-img {
 	background-image: url("images/item1.png");
 }
 
+/* COLLECTION */
 #pf-item-2-img {
 	background-image: url("images/item2.png");
 }
 
+/* GECKOS */
 #pf-item-3-img {
 	background-image: url("images/item3.png");
+}
+#pf-item-3-img:hover {
+	background-image: url("images/item3a.gif");
+}
+
+/* APT */
+#pf-item-4-img {
+	background-image: url("images/item4.png");
+}
+
+/* GRUB */
+#pf-item-5-img {
+	background-image: url("images/item5.png");
+}
+#pf-item-5-img:hover {
+	background-image: url("images/item5a.png");
 }
 
 /* CONTACT STYLES */
