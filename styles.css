@@ -29,7 +29,6 @@ i {
 }
 
 /*NAVBAR STYLES*/
-
 nav {
 	overflow: auto;
 	font-size: 25px;
@@ -75,7 +74,6 @@ nav ul li a:hover {
 }
 
 /* HERO STYLES */
-
 header {
 	color: #ffffff;
 	background-color: #000000;
@@ -110,7 +108,6 @@ header h6 {
 }
 
 /* ABOUT STYLES */
-
 .about {
 	text-align: center;
 	padding: 72px 52px 52px 52px;
@@ -127,7 +124,6 @@ header h6 {
 }
 
 /* PORTFOLIO ITEMS STYLES */
-
 .portfolio {
 	background-color: #000000;
 	color: #ffffff;
@@ -199,20 +195,20 @@ header h6 {
 }
 
 /* CONTACT STYLES */
-
 .contact h2 {
 	text-align: center;
 }
 
 .contact article {
-	display: inline-block;
 	text-align: center;
-	margin: auto 10% auto 10%;
+    margin: auto 10% auto 10%;
+    float: left;
 	}
 
 
 .contact .container {
-	text-align: center;
+    text-align: center;
+    overflow: auto;
 }
 
 /* RESPONSIVE CSS */
@@ -225,7 +221,7 @@ header h6 {
 
 @media screen and (max-width: 1200px) {
 	.contact article {
-		margin: auto 5% auto 5%;
+		margin: 0 5% 0 10%;
 	}
 }
 
@@ -290,9 +286,9 @@ header h6 {
 	}
 
 	.contact article {
-		display: block;
+        display: block;
+        float: none;
 	}
-
 }
 
 @media screen and (max-width: 550px) {
