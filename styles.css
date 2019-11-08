@@ -18,6 +18,11 @@ body {
 	margin: 0 auto;
 }
 
+.container-portfolio {
+	width: 95%;
+	margin: 0 auto;
+}
+
 a {
 	text-decoration: none;
 	color: #ffffff;
@@ -190,6 +195,10 @@ header h6 {
 #pf-item-1-img {
 	background-image: url("images/item1.png");
 }
+#pf-item-1-img:hover {
+	background-image: url("images/item1a.png");
+}
+
 
 /* COLLECTION */
 #pf-item-2-img {
@@ -215,6 +224,19 @@ header h6 {
 }
 #pf-item-5-img:hover {
 	background-image: url("images/item5a.png");
+}
+
+/* STARS */
+#pf-item-6-img {
+	background-image: url("images/item6.png");
+}
+#pf-item-6-img:hover {
+	background-image: url("images/item6a.png");
+}
+
+/* LOAN */
+#pf-item-7-img {
+	background-image: url("images/item7.png");
 }
 
 /* CONTACT STYLES */
