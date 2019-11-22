@@ -5,6 +5,13 @@
 	font-weight: 400;
 }
 
+.profile-img img {
+	margin-top: 10px;
+	width: 180px;
+	height: 180px;
+	border-radius: 90px;
+}
+
 .hidden {
     display: none;
 }
