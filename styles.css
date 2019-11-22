@@ -82,6 +82,27 @@ nav ul li a:hover {
 	padding: 6.5px;
 }
 
+.ham-menu {
+	font-size: 30px;
+	transition: display 0.25s linear;
+}
+
+.ham-menu ul {
+	list-style: none;
+}
+
+.ham-menu li {
+	margin:7.5px;
+}
+
+.ham-menu a{
+	color: black;
+}
+
+.ham-menu a:hover {
+	color: grey;
+}
+
 /* HERO STYLES */
 header {
 	color: #ffffff;
@@ -268,6 +289,7 @@ header h6 {
 	.contact article {
 		margin: 0 5% 0 10%;
 	}
+
 }
 
 @media screen and (max-width: 600px) {
