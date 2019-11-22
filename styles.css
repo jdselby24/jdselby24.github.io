@@ -267,7 +267,7 @@ header h6 {
 
 .contact article {
 	text-align: center;
-    margin: auto 10% auto 10%;
+    margin: auto 8.5% auto 8.5%;
     float: left;
 	}
 
@@ -280,14 +280,14 @@ header h6 {
 /* RESPONSIVE CSS */
 
 @media screen and (max-width: 1400px) {
-	.portfolio .container {
+	.portfolio .container {s
 		width: 95%;
 	}
 }
 
 @media screen and (max-width: 1200px) {
 	.contact article {
-		margin: 0 5% 0 10%;
+		margin: 0 4.25% 0 8.5%;
 	}
 
 }
