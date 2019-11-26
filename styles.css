@@ -287,7 +287,7 @@ header h6 {
 /* RESPONSIVE CSS */
 
 @media screen and (max-width: 1400px) {
-	.portfolio .container {s
+	.portfolio .container {
 		width: 95%;
 	}
 }
